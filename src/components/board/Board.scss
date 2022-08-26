@@ -1,0 +1,16 @@
+.board_list {
+    .title {
+        margin: 40px 60px;
+    }
+
+    .board_mane {
+        max-width: 1200px;
+        display: flex;
+        padding: 40px 0;
+        border: 1px solid #000;
+        border-radius: 15px;
+        h2 {
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+.board_item {
+            
+    width: 33%;
+    margin: 0 20px;
+}
+.list_group {
+    max-height: 600px;
+    list-style-type: none;
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    overflow: auto;
+    .list_group_item {
+        display: flex;
+        justify-content:space-between;
+        margin: 20px 0;
+        padding: 5px;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        text-align: center;
+        align-items: center;
+    }
+
+    div {
+        display: flex;
+        width: 90px;
+        height: 90px;
+        border: 1px solid #000;
+        border-radius: 50%;
+        background-color: rgb(255, 0, 0);
+        font-size: 36px;
+        color: rgb(255, 255, 255);
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    h3 {
+        flex: 1;
+        padding: 0 15px;
+        font-size: 15px;
+    }
+
+    h4 {
+        padding: 0 15px;
+    }
+}
